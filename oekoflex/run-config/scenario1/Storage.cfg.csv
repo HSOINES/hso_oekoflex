@@ -1,0 +1,2 @@
+name;description;ChargePowerMax [MW];DischargePowerMax [MW];chargingEfficiency [%];dischargingEfficiency [%];capacityMin [MWh];capacityMax [MWh];variableCostsCharging [EUR/MWh];variableCostsDischarging [EUR/MWh]
+Bleiloch;PSPP;32;80;0,8;0,87;0;640;0,28;0,28

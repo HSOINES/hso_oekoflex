@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+    <parameter name="randomSeed" displayName="Default Random Seed" type="int"
+               defaultValue="__NULL__"
+               isReadOnly="false"
+               converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+            />
+    <parameter name="scenario" displayName="Szenario" type="java.lang.String"
+               defaultValue="scenario1"
+               isReadOnly="false"
+               converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+            />
+    <parameter name="daysToRun" displayName="Simulationstage" type="int"
+               defaultValue="3"
+               isReadOnly="false"
+               converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+            />
+    <parameter name="preRunDays" displayName="Tage Vorlauf" type="int"
+               defaultValue="3"
+               isReadOnly="false"
+               converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+            />
+</parameters>
+
+
